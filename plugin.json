@@ -1,0 +1,21 @@
+{
+  "name": "Placeholder",
+  "description": "Template container placeholder plugin",
+  "namespace": "Placeholder",
+  "author": "Sharko",
+  "keywords": [
+    "container",
+    "placeholder",
+    "template"
+  ],
+  "type": "template",
+  "require": [],
+  "serviceProvider": "Placeholder\\Providers\\PlaceholderServiceProvider",
+  "dataProviders": [
+    {
+      "key": "Placeholder\\Containers\\PlaceholderContainer",
+      "name": "Placeholder",
+      "description": "Display a placeholder image and text"
+    }
+  ]
+}
